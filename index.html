@@ -1,0 +1,144 @@
+<!DOCTYPE html><html lang="fa" dir="rtl"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><title>ardeshir khan</title><link rel="manifest" href="manifest.webmanifest"><link rel="icon" href="icon-192.png"><link rel="apple-touch-icon" href="icon-192.png"><meta name="theme-color" content="#000000"><style>*{box-sizing:border-box;margin:0}
+html,body{height:100%}
+body{font:15px/1.8 Vazirmatn,"Segoe UI",Tahoma,sans-serif;overflow:hidden;background:#000;color:#ece7dc;--mu:#9a9486;--ln:#ffffff22;--fg:#ece7dc}
+button{background:none;border:0;color:inherit;cursor:pointer;padding:8px;border-radius:50%;display:grid;place-items:center}
+button:hover,button.on{color:var(--ac)}
+[hidden]{display:none!important}
+#top{position:fixed;inset:0 0 auto;height:52px;display:flex;align-items:center;gap:8px;padding:0 10px;z-index:5;background:#000;border-bottom:1px solid var(--ln)}
+#tt{flex:1;font-size:14px;overflow:hidden;white-space:nowrap;text-overflow:ellipsis}
+#ct{color:var(--mu);font-size:13px;direction:ltr;unicode-bidi:isolate}
+#st{position:fixed;inset:52px 0 0;overflow:hidden;background:#000}
+.pg{position:absolute;inset:0;background:#000;animation:in .45s ease both}
+.pg.out{animation:out .35s ease both;pointer-events:none}
+@keyframes in{from{opacity:0;transform:perspective(1200px) rotateY(calc(var(--d)*-16deg)) translateX(calc(var(--d)*-5%))}}
+@keyframes out{to{opacity:0;transform:perspective(1200px) rotateY(calc(var(--d)*16deg)) translateX(calc(var(--d)*5%))}}
+.nv{position:fixed;top:50%;margin-top:-22px;z-index:4;color:#fff;background:#00000066;opacity:.75}
+#nx{left:6px}#pv{right:6px}
+.fr{position:absolute;inset:0 0 48px;overflow:hidden;background:#000}
+.fr.v{inset:0 0 96px}
+.fr>img,.fr>video{position:absolute;inset:0;width:100%;height:100%;object-fit:contain}
+.zb{position:absolute;top:10px;left:10px;display:flex;flex-direction:column;gap:2px;background:#000a;border-radius:24px;padding:4px;color:#fff;z-index:2}
+.vc{position:absolute;inset:auto 0 48px;height:48px;display:flex;align-items:center;gap:8px;padding:0 12px;background:#000}
+.vc input{flex:1;accent-color:var(--ac)}
+.vc span{font-size:12px;color:var(--mu);min-width:84px;text-align:center}
+.cp{position:absolute;inset:auto 0 0;height:48px;display:flex;align-items:center;justify-content:space-between;padding:0 16px;font-size:13px;color:var(--mu);border-top:1px solid var(--ln);background:#000}
+.cv{display:flex;flex-direction:column}
+.cv .im{flex:1;min-height:0;position:relative}
+.cv .im img{position:absolute;inset:0;width:100%;height:100%;object-fit:contain}
+.ci{flex:none;padding:12px 6% 22px;text-align:center;color:#f3eee3}
+.ci .lg{height:60px;width:auto;border-radius:12px;margin-bottom:6px}
+.ci i{display:block;width:64px;height:1px;background:var(--ac);margin:10px auto}
+.ci h1{font-size:clamp(22px,4.5vw,40px);font-weight:300;line-height:1.3}
+.ci p{opacity:.85}
+@media(max-height:520px){.ci .lg{display:none}}
+.tx,.ct{overflow:auto;padding:36px 22px}
+.tx>*,.ct>*{max-width:640px;margin-inline:auto}
+h2{color:var(--ac);font-weight:400;letter-spacing:.04em;margin-bottom:14px}
+.tx p{margin:10px 0}
+.cl a{display:flex;align-items:center;gap:14px;padding:14px 18px;margin:10px 0;border:1px solid var(--ln);border-radius:10px;color:inherit;text-decoration:none}
+.cl a:hover{border-color:var(--ac)}
+.cl svg{color:var(--ac);flex:none}
+.cl span{unicode-bidi:plaintext}
+.gr{position:absolute;inset:0 0 48px;display:grid;grid-template:1fr 1fr/1fr 1fr;gap:6px;padding:10px}
+.gr img{width:100%;height:100%;min-height:0;object-fit:contain;background:#000;cursor:zoom-in}
+canvas{position:absolute;inset:0 0 48px;width:100%;height:calc(100% - 48px);touch-action:none;cursor:grab}
+.tb{position:absolute;top:10px;right:10px;display:flex;flex-direction:column;gap:2px;background:#000a;border-radius:24px;padding:4px;color:#fff}
+.ld{position:absolute;inset:0 0 48px;display:grid;place-items:center;color:var(--mu)}
+#toc{position:fixed;inset:52px 0 0 auto;width:min(320px,100%);background:#000;border-left:1px solid var(--ln);overflow:auto;z-index:6}
+#toc button{display:flex;gap:12px;width:100%;text-align:right;border-radius:0;padding:10px 16px;border-bottom:1px solid var(--ln);font:inherit;place-items:unset}
+#toc i{color:var(--mu);font-style:normal;min-width:24px}
+#shr{position:fixed;inset:auto 0 60px;margin:auto;width:min(340px,92%);padding:14px;background:#000;border:1px solid var(--ac);border-radius:12px;z-index:9;display:flex;flex-wrap:wrap;gap:8px}
+#shr a,#shr button{flex:1;padding:8px 12px;border:1px solid var(--ln);border-radius:8px;color:inherit;text-decoration:none;text-align:center;font:inherit;background:none}
+.lb{position:fixed;inset:0;background:#000;z-index:20}
+.lb .fr{inset:0}.x{position:absolute;top:12px;right:12px;color:#fff;z-index:3}</style></head><body><script>(function VIEW(D){
+const $=(s,e=document)=>e.querySelector(s),M=D.m,P=D.p,E=s=>String(s==null?'':s).replace(/[&<>"]/g,c=>'&#'+c.charCodeAt(0)+';'),
+fa=n=>(+n).toLocaleString('fa-IR'),
+ic=(n,s=22)=>`<svg width="${s}" height="${s}" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round">${D.i[n].split('|').map(d=>`<path d="${d}"/>`).join('')}</svg>`,
+cap=p=>`<div class="cp"><span>${E(p.l)}</span><button data-s title="اشتراک‌گذاری">${ic('share',20)}</button></div>`;
+let cur=-1,cl=null;
+document.documentElement.style.setProperty('--ac',M.acc);
+document.body.innerHTML=`<div id="top"><button id="mn" title="فهرست">${ic('menu')}</button><span id="tt">${E(M.name)}</span><span id="ct"></span></div><div id="st"></div><button class="nv" id="nx">${ic('prev',28)}</button><button class="nv" id="pv">${ic('next',28)}</button><div id="toc" hidden>${P.map((p,i)=>`<button data-g="${i}"><i>${fa(i+1)}</i>${E(p.l)}</button>`).join('')}</div><div id="shr" hidden></div>`;
+const sw=(el,ok)=>{let a;el.addEventListener('pointerdown',e=>a=[e.clientX,e.clientY]);el.addEventListener('pointerup',e=>{if(!a||(ok&&!ok()))return;const dx=e.clientX-a[0],dy=e.clientY-a[1];a=0;if(Math.abs(dx)>60&&Math.abs(dx)>Math.abs(dy)*1.5)go(cur+(dx<0?1:-1))})};
+function zoom(f){const im=$('img',f),pt=new Map();let s=1,x=0,y=0,d0=1,s0=1,mt=0;f.style.touchAction='none';
+const ap=()=>{s=Math.max(1/3,Math.min(6,s));if(s<=1)x=y=0;im.style.transform=`translate(${x}px,${y}px) scale(${s})`},
+dd=()=>{const[a,b]=[...pt.values()];return Math.hypot(a[0]-b[0],a[1]-b[1])},
+zb=document.createElement('div');zb.className='zb';zb.innerHTML=`<button data-z="1.3" title="بزرگ‌نمایی">${ic('plus')}</button><button data-z=".77" title="کوچک‌نمایی">${ic('minus')}</button><button data-z="0" title="اندازه کامل">${ic('fit')}</button>`;f.append(zb);
+zb.onclick=e=>{const b=e.target.closest('button');if(!b)return;const k=+b.dataset.z;if(k)s*=k;else s=1;ap()};
+f.onpointerdown=e=>{if(e.target.closest('.zb'))return;f.setPointerCapture(e.pointerId);pt.set(e.pointerId,[e.clientX,e.clientY]);if(pt.size==1)mt=0;if(pt.size>1){mt=1;d0=dd()||1;s0=s}};
+f.onpointermove=e=>{const o=pt.get(e.pointerId);if(!o)return;if(pt.size==2){pt.set(e.pointerId,[e.clientX,e.clientY]);s=s0*dd()/d0}else if(s>1){x+=e.clientX-o[0];y+=e.clientY-o[1];pt.set(e.pointerId,[e.clientX,e.clientY])}ap()};
+f.addEventListener('pointerup',e=>pt.delete(e.pointerId));
+f.onwheel=e=>{e.preventDefault();s*=e.deltaY<0?1.15:.87;ap()};
+f.ondblclick=e=>{if(e.target.closest('.zb'))return;s=s>1?1:2.5;ap()};
+sw(f,()=>s<=1&&!mt)}
+const R={
+cover(e){e.className+=' cv';e.innerHTML=`${M.cover?`<div class="im"><img src="${M.cover}"></div>`:'<div class="im"></div>'}<div class="ci">${M.logo?`<img class="lg" src="${M.logo}">`:''}<h1>${E(M.name)}</h1><i></i>${M.client?`<p>کارفرما: ${E(M.client)}</p>`:''}<p>${E(M.sub)}</p></div>`;sw(e)},
+info(e,p){e.className+=' tx';e.innerHTML=`<h2>مشخصات پروژه</h2>`+p.x.split(/\n+/).map(l=>`<p>${E(l)}</p>`).join('');sw(e)},
+img(e,p){e.innerHTML=`<div class="fr"><img src="${p.src}" draggable="false"></div>${cap(p)}`;zoom($('.fr',e))},
+grid(e,p){e.innerHTML=`<div class="gr">${p.srcs.map(s=>`<img src="${s}">`).join('')}</div>${cap(p)}`;sw(e);
+e.onclick=ev=>{const m=ev.target;if(m.tagName!='IMG')return;const l=document.createElement('div');l.className='lb';l.innerHTML=`<div class="fr"><img src="${m.src}"></div><button class="x">${ic('close')}</button>`;document.body.append(l);zoom($('.fr',l));$('.x',l).onclick=()=>l.remove()}},
+vid(e,p){e.innerHTML=`<div class="fr v"><video playsinline loop></video></div><div class="vc" dir="ltr"><button id="pp"></button><input id="sk" type="range" min="0" max="1000" value="0"><span id="tm">0:00</span><button id="mt"></button><button id="vf" title="تمام‌صفحه">${ic('full')}</button></div>${cap(p)}`;
+const v=$('video',e),pp=$('#pp',e),sk=$('#sk',e),tm=$('#tm',e),mt=$('#mt',e),f2=s=>{s=Math.floor(s||0);return Math.floor(s/60)+':'+String(s%60).padStart(2,'0')};
+const si=()=>{pp.innerHTML=ic(v.paused?'play':'pause');mt.innerHTML=ic(v.muted?'mute':'vol')};
+v.onplay=v.onpause=v.onvolumechange=si;si();
+v.ontimeupdate=v.onloadedmetadata=()=>{if(v.duration)sk.value=v.currentTime/v.duration*1000;tm.textContent=f2(v.currentTime)+' / '+f2(v.duration)};
+sk.oninput=()=>{if(v.duration)v.currentTime=sk.value/1000*v.duration};
+pp.onclick=v.onclick=()=>v.paused?v.play():v.pause();mt.onclick=()=>v.muted=!v.muted;
+$('#vf',e).onclick=()=>{const q=v.requestFullscreen||v.webkitEnterFullscreen||v.webkitRequestFullscreen;q&&q.call(v)};
+const pl=()=>v.play().catch(()=>{v.muted=true;v.play().catch(()=>{})});
+if(p.src.slice(0,5)=='data:')fetch(p.src).then(r=>r.blob()).then(b=>{v.src=URL.createObjectURL(b);pl()});else{v.src=p.src;pl()}
+return()=>v.pause()},
+con(e){e.className+=' ct';e.innerHTML=`<h2>ارتباط با ما</h2><div class="cl">${D.c.map(x=>`<a href="${E(x.h)}" target="_blank" rel="noopener">${ic(x.i,24)}<span>${E(x.l)}</span></a>`).join('')}</div>`;sw(e)},
+pan(e,p){
+e.innerHTML=`<canvas></canvas><div class="tb"><button id="ar" title="چرخش خودکار"></button><button id="gy" title="ژیروسکوپ (حرکت گوشی)">${ic('gyro')}</button><button id="zi" title="بزرگ‌نمایی">${ic('plus')}</button><button id="zo" title="کوچک‌نمایی">${ic('minus')}</button><button id="fs" title="تمام‌صفحه">${ic('full')}</button></div><div class="ld">در حال بارگذاری…</div>${cap(p)}`;
+const c=$('canvas',e),gl=c.getContext('webgl'),ld=$('.ld',e);
+if(!gl){ld.textContent='این مرورگر از WebGL پشتیبانی نمی‌کند';return}
+let on=1,alive=1,yaw=0,pit=0,fov=1.3,gy=0,Q=null,raf,dn=0,lx=0,ly=0;
+const sy=()=>{$('#ar',e).innerHTML=ic(on?'pause':'play');$('#ar',e).classList.toggle('on',!!on);$('#gy',e).classList.toggle('on',!!gy)};sy();
+const sh=(t,s)=>{const o=gl.createShader(t);gl.shaderSource(o,s);gl.compileShader(o);return o},pr=gl.createProgram();
+gl.attachShader(pr,sh(gl.VERTEX_SHADER,'attribute vec2 a;varying vec2 v;void main(){v=a;gl_Position=vec4(a,0.,1.);}'));
+gl.attachShader(pr,sh(gl.FRAGMENT_SHADER,'precision highp float;varying vec2 v;uniform sampler2D t;uniform mat3 R;uniform float f,ar,o;void main(){vec3 d=R*normalize(vec3(v.x*ar*f,v.y*f,-1.));float lon=atan(d.x,-d.z)+o;float lat=asin(clamp(d.y,-1.,1.));gl_FragColor=texture2D(t,vec2(fract(lon/6.2831853+.5),.5-lat/3.1415927));}'));
+gl.linkProgram(pr);gl.useProgram(pr);
+gl.bindBuffer(gl.ARRAY_BUFFER,gl.createBuffer());gl.bufferData(gl.ARRAY_BUFFER,new Float32Array([-1,-1,1,-1,-1,1,1,1]),gl.STATIC_DRAW);
+const al=gl.getAttribLocation(pr,'a');gl.enableVertexAttribArray(al);gl.vertexAttribPointer(al,2,gl.FLOAT,false,0,0);
+const uR=gl.getUniformLocation(pr,'R'),uf=gl.getUniformLocation(pr,'f'),ua=gl.getUniformLocation(pr,'ar'),uo=gl.getUniformLocation(pr,'o');
+const loop=()=>{if(!alive)return;raf=requestAnimationFrame(loop);const w=c.clientWidth,h=c.clientHeight,d=Math.min(devicePixelRatio||1,2),W=Math.round(w*d),H=Math.round(h*d);
+if(c.width!=W||c.height!=H){c.width=W;c.height=H}gl.viewport(0,0,W,H);if(on&&!gy)yaw+=.0012;
+let m;if(gy&&Q){const[x,y,z,q]=Q;m=[1-2*(y*y+z*z),2*(x*y+z*q),2*(x*z-y*q),2*(x*y-z*q),1-2*(x*x+z*z),2*(y*z+x*q),2*(x*z+y*q),2*(y*z-x*q),1-2*(x*x+y*y)]}
+else{const cs=Math.cos(pit),sn=Math.sin(pit);m=[1,0,0,0,cs,sn,0,-sn,cs]}
+gl.uniformMatrix3fv(uR,false,m);gl.uniform1f(uf,Math.tan(fov/2));gl.uniform1f(ua,w/h);gl.uniform1f(uo,yaw);gl.drawArrays(gl.TRIANGLE_STRIP,0,4)};
+const im=new Image();im.onload=()=>{let s=im;const mx=gl.getParameter(gl.MAX_TEXTURE_SIZE);if(im.width>mx){s=document.createElement('canvas');s.width=mx;s.height=mx/2;s.getContext('2d').drawImage(im,0,0,s.width,s.height)}
+gl.bindTexture(gl.TEXTURE_2D,gl.createTexture());gl.texImage2D(gl.TEXTURE_2D,0,gl.RGBA,gl.RGBA,gl.UNSIGNED_BYTE,s);
+[[gl.TEXTURE_MIN_FILTER,gl.LINEAR],[gl.TEXTURE_MAG_FILTER,gl.LINEAR],[gl.TEXTURE_WRAP_S,gl.CLAMP_TO_EDGE],[gl.TEXTURE_WRAP_T,gl.CLAMP_TO_EDGE]].forEach(([a,b])=>gl.texParameteri(gl.TEXTURE_2D,a,b));ld.remove();loop()};
+if(p.pd)im.src=p.pd;else{const sc=document.createElement('script');sc.src=p.ps;sc.onload=()=>im.src=window.__P[p.id];sc.onerror=()=>ld.textContent='خطا در بارگذاری پانوراما';document.head.append(sc)}
+const zm=d=>fov=Math.max(.45,Math.min(1.9,fov+d));
+c.onpointerdown=ev=>{dn=1;lx=ev.clientX;ly=ev.clientY;on=0;sy();c.setPointerCapture(ev.pointerId)};
+c.onpointermove=ev=>{if(!dn)return;const hf=2*Math.atan(Math.tan(fov/2)*c.clientWidth/c.clientHeight);yaw-=(ev.clientX-lx)/c.clientWidth*hf;if(!gy)pit=Math.max(-1.5,Math.min(1.5,pit+(ev.clientY-ly)/c.clientHeight*fov));lx=ev.clientX;ly=ev.clientY};
+c.onpointerup=c.onpointercancel=()=>dn=0;c.onwheel=ev=>{ev.preventDefault();zm(ev.deltaY>0?.1:-.1)};
+$('#ar',e).onclick=()=>{on=!on;sy()};$('#zi',e).onclick=()=>zm(-.15);$('#zo',e).onclick=()=>zm(.15);
+$('#fs',e).onclick=()=>{const q=e.requestFullscreen||e.webkitRequestFullscreen;q&&q.call(e)};
+const mu=(a,b)=>[a[0]*b[3]+a[3]*b[0]+a[1]*b[2]-a[2]*b[1],a[1]*b[3]+a[3]*b[1]+a[2]*b[0]-a[0]*b[2],a[2]*b[3]+a[3]*b[2]+a[0]*b[1]-a[1]*b[0],a[3]*b[3]-a[0]*b[0]-a[1]*b[1]-a[2]*b[2]];
+const oh=ev=>{if(ev.beta==null)return;const r=Math.PI/180,X=ev.beta*r/2,Y=ev.alpha*r/2,Z=-ev.gamma*r/2,c1=Math.cos(X),c2=Math.cos(Y),c3=Math.cos(Z),s1=Math.sin(X),s2=Math.sin(Y),s3=Math.sin(Z);
+let q=[s1*c2*c3+c1*s2*s3,c1*s2*c3-s1*c2*s3,c1*c2*s3-s1*s2*c3,c1*c2*c3+s1*s2*s3];q=mu(q,[-Math.SQRT1_2,0,0,Math.SQRT1_2]);const a=-(screen.orientation&&screen.orientation.angle||0)*r/2;Q=mu(q,[0,0,Math.sin(a),Math.cos(a)])};
+$('#gy',e).onclick=async()=>{if(gy){gy=0;Q=null;removeEventListener('deviceorientation',oh);sy();return}
+const DO=window.DeviceOrientationEvent;if(!DO||!isSecureContext){alert('ژیروسکوپ فقط روی گوشی و با لینک امن (https) کار می‌کند.');return}
+if(DO.requestPermission){try{if(await DO.requestPermission()!='granted')return}catch(x){return}}
+gy=1;on=0;addEventListener('deviceorientation',oh);sy();setTimeout(()=>{if(gy&&!Q){alert('این دستگاه اطلاعات حرکت ارسال نمی‌کند.');gy=0;sy()}},1500)};
+return()=>{alive=0;cancelAnimationFrame(raf);removeEventListener('deviceorientation',oh);const x=gl.getExtension('WEBGL_lose_context');x&&x.loseContext()}}
+};
+function go(i){if(i<0||i>=P.length||i==cur)return;const d=i>cur?1:-1,old=$('.pg:not(.out)');try{cl&&cl()}catch(x){}cl=null;cur=i;
+const e=document.createElement('div');e.className='pg';e.style.setProperty('--d',d);$('#st').append(e);
+if(old){old.classList.add('out');setTimeout(()=>old.remove(),400)}
+try{cl=R[P[i].t](e,P[i])||null}catch(x){e.innerHTML='<p style="padding:24px;color:#e88;direction:ltr">'+E(x.message)+'</p>'}
+$('#ct').textContent=fa(i+1)+' / '+fa(P.length);try{history.replaceState(null,'','#'+(i+1))}catch(x){}$('#toc').hidden=true}
+$('#nx').onclick=()=>go(cur+1);$('#pv').onclick=()=>go(cur-1);$('#mn').onclick=()=>{const t=$('#toc');t.hidden=!t.hidden};
+$('#toc').onclick=e=>{const b=e.target.closest('[data-g]');b&&go(+b.dataset.g)};
+addEventListener('keydown',e=>{if(e.key=='ArrowLeft')go(cur+1);if(e.key=='ArrowRight')go(cur-1)});
+document.addEventListener('click',ev=>{const b=ev.target.closest('[data-s]');if(!b)return;
+const o=/^https?:/.test(location.protocol)?location.href.split('#')[0]:(M.u||'');
+if(!o){alert('برای اشتراک‌گذاری، لینک آنلاین کتاب باید هنگام ساخت کتاب وارد شده باشد.');return}
+const u=o+'#'+(cur+1),t=M.name+' — '+P[cur].l,q=encodeURIComponent;
+if(window.AndroidShare){AndroidShare.share(t+'\n'+u);return}
+if(navigator.share){navigator.share({title:t,text:t,url:u}).catch(()=>{});return}
+const s=$('#shr');s.hidden=false;s.innerHTML=`<a target="_blank" href="https://t.me/share/url?url=${q(u)}&text=${q(t)}">تلگرام</a><a target="_blank" href="https://wa.me/?text=${q(t+' '+u)}">واتساپ</a><a href="mailto:?subject=${q(t)}&body=${q(u)}">ایمیل</a><button id="cb">کپی لینک</button>`;
+$('#cb').onclick=()=>navigator.clipboard&&navigator.clipboard.writeText(u);s.onclick=()=>s.hidden=true});
+go(Math.min(P.length,Math.max(1,parseInt(location.hash.slice(1))||1))-1)})({"m":{"name":"ardeshir khan","u":"","client":"احمدی فر","sub":"1405","acc":"#cd1867","cover":"media/cover1.jpg","logo":"media/logo.png"},"p":[{"t":"cover","l":"جلد"},{"t":"info","l":"مشخصات پروژه","x":"2000 متر\nسردار جنگل"},{"t":"img","l":"پلان ۱ از ۲","src":"media/plan1.png"},{"t":"img","l":"پلان ۲ از ۲","src":"media/plan2.png"},{"t":"img","l":"رندر ۱ از ۴","src":"media/render1.jpg"},{"t":"img","l":"رندر ۲ از ۴","src":"media/render2.png"},{"t":"img","l":"رندر ۳ از ۴","src":"media/render3.png"},{"t":"img","l":"رندر ۴ از ۴","src":"media/render4.png"},{"t":"vid","l":"انیمیشن ۱ از ۲","src":"media/video1.mp4"},{"t":"vid","l":"انیمیشن ۲ از ۲","src":"media/video2.mp4"},{"t":"pan","l":"پانوراما ۱ از ۲","id":"pano1","ps":"media/pano1.js"},{"t":"pan","l":"پانوراما ۲ از ۲","id":"pano2","ps":"media/pano2.js"},{"t":"con","l":"ارتباط با ما"}],"c":[{"i":"phone","l":"09131783466","h":"tel:09131783466"},{"i":"phone","l":"09131795547","h":"tel:09131795547"},{"i":"ig","l":"offset_architect","h":"https://instagram.com/offset_architect"},{"i":"pin","l":"کرمان-سیرجان","h":"https://www.google.com/maps/search/?api=1&query=%DA%A9%D8%B1%D9%85%D8%A7%D9%86-%D8%B3%DB%8C%D8%B1%D8%AC%D8%A7%D9%86"}],"i":{"menu":"M4 7h16|M4 12h16|M4 17h16","prev":"M15 6l-6 6 6 6","next":"M9 6l6 6-6 6","full":"M4 9V4h5|M20 9V4h-5|M4 15v5h5|M20 15v5h-5","gyro":"M8 3h8a1 1 0 0 1 1 1v16a1 1 0 0 1-1 1H8a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1z|M11 18h2|M2.5 9a9 9 0 0 1 2.5-4|M21.5 15a9 9 0 0 1-2.5 4","play":"M8 5l11 7-11 7z","pause":"M8 5v14|M16 5v14","plus":"M12 5v14|M5 12h14","minus":"M5 12h14","close":"M6 6l12 12|M18 6L6 18","share":"M18 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6z|M6 15a3 3 0 1 0 0-6 3 3 0 0 0 0 6z|M18 22a3 3 0 1 0 0-6 3 3 0 0 0 0 6z|M8.6 13.5l6.8 4|M15.4 6.5l-6.8 4","phone":"M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2z","wa":"M3 21l1.5-4.5A9 9 0 1 1 8 19.5z|M9 9c0 3 3 6 6 6l1.5-1.5-2-1-1 .8c-1-.4-2-1.4-2.4-2.4l.8-1-1-2z","tg":"M21 4L3 11l6 2.5L11 20l3-4 5 4z|M9 13.5l8-6.5","ig":"M7 3h10a4 4 0 0 1 4 4v10a4 4 0 0 1-4 4H7a4 4 0 0 1-4-4V7a4 4 0 0 1 4-4z|M12 8a4 4 0 1 0 0 8 4 4 0 0 0 0-8z|M17.5 6.5h.01","web":"M12 3a9 9 0 1 0 0 18 9 9 0 0 0 0-18z|M3 12h18|M12 3c3 3 3 15 0 18|M12 3c-3 3-3 15 0 18","mail":"M3 6h18v12H3z|M3 7l9 7 9-7","vol":"M4 9v6h4l5 4V5L8 9z|M16.5 8.5a5 5 0 0 1 0 7","mute":"M4 9v6h4l5 4V5L8 9z|M17 9l4 6|M21 9l-4 6","fit":"M12 8a4 4 0 1 0 0 8 4 4 0 0 0 0-8z|M12 2v3|M12 19v3|M2 12h3|M19 12h3","pin":"M12 21s7-6 7-11a7 7 0 0 0-14 0c0 5 7 11 7 11z|M12 7.5a2.5 2.5 0 1 0 0 5 2.5 2.5 0 0 0 0-5z"}})</script><script>if('serviceWorker' in navigator&&location.protocol.indexOf('http')==0)navigator.serviceWorker.register('sw.js').catch(function(){})</script></body></html>
